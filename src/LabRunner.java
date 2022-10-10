@@ -1,5 +1,11 @@
 public class LabRunner {
     public static void main(String[]args){
+        BabyParrot baby = new BabyParrot("Toucan", 3, 4.25);
+        baby.setName("Lil' Beans");
+        String info = baby.parrotInfo();
+        System.out.println(info);
+
+
 //        String str1 = "Friday";
 //        String str2 = new String ("October");
 //        String s = "7th";
@@ -90,6 +96,6 @@ public class LabRunner {
 
         //System.out.println("My cat says "meow" when she is happy!")
 
-        System.out.println("/A\\V/A\\n\\V/A\\V/");
+
     }
 }
